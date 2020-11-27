@@ -14,19 +14,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
-    transition: all 1000ms;
-}
-
-.header:hover::after {
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
-}
-
-.header:hover .header-content {
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
 }
 
 .header-content {
